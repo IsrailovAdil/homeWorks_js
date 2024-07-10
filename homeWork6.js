@@ -71,19 +71,19 @@
 // заменяет регистр каждого символа на противоположный. Например,
 // если вводится «КаЖдЫй ОхОтНиК», то на выходе должен быть массив [кАжДыЙ оХоТнИк]
 
-let str='КаЖдЫй ОхОтНиК'
-function handleRegistr(str) {
-    let chars = str.split('');
-    let arr = chars.map(char => {
-        if (char === char.toLowerCase()) {
-            return char.toUpperCase();
-        } else {
-            return char.toLowerCase();
-        }
-    });
-    return arr
-}
-console.log(handleRegistr(str));
+// let str='КаЖдЫй ОхОтНиК'
+// function handleRegistr(str) {
+//     let chars = str.split('');
+//     let arr = chars.map(char => {
+//         if (char === char.toLowerCase()) {
+//             return char.toUpperCase();
+//         } else {
+//             return char.toLowerCase();
+//         }
+//     });
+//     return arr
+// }
+// console.log(handleRegistr(str));
 
 
 
